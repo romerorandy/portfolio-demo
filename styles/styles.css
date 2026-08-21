@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(22, 21, 21);
+    color: white;
+}
+
+h1{font-size: 2em;
+   font-family: "NotoSerif", serif;
+   padding: 35px 0px 0px 0px;
+ }
+
+h2{ font-size: 1.2em;
+    color: rgb(189, 188, 188);
+    font-family: "NotoSerif", serif;
+    font-weight: bold;}
+    
+p {
+    font-size: 1em;
+    font-family: "NotoSerif", serif;
+    padding: 7px;
+    text-align:start
+    }
+
+a{
+    color: rgb(189, 188, 188);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: small;
+    border: 1px gray solid;
+    border-radius: 6px;
+    padding: 7px;
+    margin: 2px;
+    font-family: monospace;
+}
+
+
+
+a:nth-child(3){
+    border-color:rgb(115, 78, 15);
+}
+
+a:nth-child(3):hover{
+    background-color: rgb(38, 32, 17);
+    border: 1px rgb(187, 122, 2) solid;
+    transition-duration: 0.5s;
+}
+
+a:hover {
+    background-color: rgb(27, 27, 27);
+    border: 1px rgb(178, 177, 177) solid;
+    transition-duration: 0.5s;
+}
+
+.container {
+    font-family: "JetBrainsMono", serif;
+    max-width:1400px;
+    margin: auto;
+    
+}
+
+#experiencia {
+    margin-top: 30px;
+    border-top: gray 1px solid;
+}
+
+.exp {
+    font-family: "JetBrainsMono", serif;
+    font-size: 0.8em;
+}
+
+
+@media (min-width: 720px){
+
+}
