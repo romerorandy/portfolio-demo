@@ -7,7 +7,7 @@ Soy estudiante de Ingeniería de Sistemas y estoy construyendo, paso a paso, mi 
 | Estado | Alcance actual |
 | --- | --- |
 | Etapa | Primer capítulo del proyecto |
-| Tipo | Página web estática |
+| Tipo | Portafolio estático |
 | Propósito | Practicar fundamentos y documentar mi crecimiento |
 | Próximo camino | JavaScript, frontend moderno, backend y más |
 
@@ -24,7 +24,7 @@ Este proyecto irá cambiando conmigo a medida que aprenda nuevas herramientas y 
 Este repositorio contiene la primera versión de mi portafolio personal. La página presenta:
 
 - Una breve presentación personal.
-- Enlaces a GitHub, LinkedIn y un enlace de Resume.
+- Enlaces a GitHub, LinkedIn y un enlace de Resume donde se podrá descargar mi CV.
 - Mi experiencia como Quality Analyst en Cibergestión Colombia.
 - Mi formación en Ingeniería de Sistemas y mi proceso de autoformación.
 - El proyecto actual del portafolio y las tecnologías usadas en él.
@@ -37,9 +37,6 @@ Por ahora es una página estática, sin JavaScript ni frameworks. Su propósito 
 | --- | --- |
 | HTML5 | Estructura y contenido de la página |
 | CSS3 | Estilos, colores, tipografía, enlaces y tarjetas |
-| `@font-face` | Carga de las fuentes locales |
-| `NotoSerif` | Tipografía principal para textos y títulos |
-| `JetBrainsMono` | Tipografía usada en contenedores y etiquetas |
 
 No se han incorporado todavía frameworks, librerías, backend, bases de datos ni APIs a este proyecto.
 
