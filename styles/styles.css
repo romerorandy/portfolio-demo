@@ -125,6 +125,24 @@ li {
         padding: 0;
     }
 
+    .cv-download {
+        color: rgb(175, 174, 174);
+        display: block;
+        width: fit-content;
+        margin: 14px auto 0;
+        border: none;
+        border-radius: 6px;
+        padding: 5px 14px;
+        text-align: center;
+    }
+
+    .cv-download:hover {
+        color: white;
+        background-color: transparent;
+        border: none;
+        transition-duration: 0.2s;
+    }
+
     .stack {
         display: inline-block;
         color: white;
@@ -148,6 +166,8 @@ li {
     .career-info {
        color: rgb(175, 174, 174); 
     }
+
+
 
 @media (min-width: 720px){
 
