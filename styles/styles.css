@@ -1,3 +1,4 @@
+/*====================== BASE Y TIPOGRAFÍA ====================*/
 *{
     box-sizing: border-box;
     }
@@ -39,6 +40,7 @@ p {
     }
 
 
+/*====================== LINKS Y NAVEGACIÓN ====================*/
 a{
     color: rgb(189, 188, 188);
     font-weight: bold;
@@ -69,6 +71,7 @@ a:hover {
     transition-duration: 0.5s;
     }
 
+/*====================== LAYOUT GENERAL ====================*/
 .container {
     font-family: "JetBrainsMono", serif;
     max-width:1400px;
@@ -81,6 +84,7 @@ li {
 
 
 
+/*====================== EXPERIENCIA ====================*/
 #experiencia {
     margin-top: 30px;
     border-top: gray 1px solid;
@@ -97,7 +101,8 @@ li {
     font-size: 0.7em;
     color: rgb(175, 174, 174);
 }    
-    
+
+/*====================== PROYECTOS ====================*/
     .card {
         background-color: rgb(32, 31, 31);
         border: 1px solid rgb(63, 62, 62);
@@ -125,6 +130,7 @@ li {
         padding: 0;
     }
 
+/*====================== CV ====================*/
     .cv-download {
         color: rgb(175, 174, 174);
         display: block;
@@ -143,6 +149,7 @@ li {
         transition-duration: 0.2s;
     }
 
+/*====================== STACK ====================*/
     .stack {
         display: inline-block;
         color: white;
@@ -163,10 +170,12 @@ li {
         margin: 4px 4px 0 0;
     }
 
+/*====================== EDUCACIÓN ====================*/
     .career-info {
        color: rgb(175, 174, 174); 
     }
 
+/*====================== FOOTER ====================*/
     footer {
         text-align: center;
         padding: 18px 0 34px;
@@ -215,6 +224,8 @@ li {
 
 
 
+/*====================== RESPONSIVE ====================*/
+/*====================== TABLETS ====================*/
 @media (min-width: 720px) {
     body {
         font-size: 18px;
@@ -277,6 +288,7 @@ li {
     }
 }
 
+/*====================== MONITORES ====================*/
 @media (min-width: 1400px) {
     body {
         font-size: 20px;
@@ -285,6 +297,7 @@ li {
     h1 {
         font-size: 4.2em;
         padding-top: 60px;
+        letter-spacing: -0.04em;
     }
 
     h2 {
@@ -297,6 +310,7 @@ li {
 
     p {
         font-size: 1.15em;
+        line-height: 1.7;
     }
 
     .container {
@@ -304,21 +318,61 @@ li {
         max-width: 1200px;
     }
 
+    section.container {
+        margin-bottom: 34px;
+    }
+
+    #descripcion {
+        padding-top: 12px;
+    }
+
     #descripcion nav {
         gap: 16px;
+        margin-top: 18px;
     }
 
     .card {
         padding: 22px;
+        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
     }
 
     .card-content {
         font-size: 1.05em;
     }
 
+    #descarga-mi-cv .card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+        padding: 20px 26px;
+    }
+
+    #descarga-mi-cv .card-content {
+        background: transparent;
+        border: none;
+        padding: 0;
+        flex: 1;
+    }
+
+    #descarga-mi-cv .card-content h2 {
+        margin-bottom: 8px;
+    }
+
+    #descarga-mi-cv .card-content p {
+        margin: 0;
+        padding: 0;
+    }
+
     .cv-download {
-        padding: 8px 20px;
+        padding: 10px 22px;
         font-size: 1rem;
+        margin: 0;
+    }
+
+    footer {
+        padding-top: 22px;
+        padding-bottom: 42px;
     }
 
     .footer-actions {
